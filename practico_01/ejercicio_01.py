@@ -10,7 +10,7 @@ def maximo_basico(a: float, b: float) -> float:
     else:
         return (b)
 
-    pass # Completar
+
 
 
 # NO MODIFICAR - INICIO
@@ -26,9 +26,8 @@ def maximo_libreria(a: float, b: float) -> float:
     """Re-escribir utilizando el built-in max.
     Referencia: https://docs.python.org/3/library/functions.html#max
     """
-    c = max(a,b)
-    return c
-    pass # Completar
+    return max(a,b)
+    
 
 
 # NO MODIFICAR - INICIO
@@ -46,8 +45,6 @@ def maximo_ternario(a: float, b: float) -> float:
     """
 
     return a if a>b else b
-
-    pass # Completar
 
 
 # NO MODIFICAR - INICIO
